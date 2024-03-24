@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link>
+<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu & Partner's Wedding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .main-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .wedding-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .wedding-info .info-item {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        .info-item h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .info-item p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Himanshu & Partner's Wedding</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#venue">Venue</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="main-content">
+            <h2 class="section-heading">About the Wedding</h2>
+            <div class="wedding-info">
+                <div class="info-item">
+                    <h2>Date</h2>
+                    <p>Insert wedding date here</p>
+                </div>
+                <div class="info-item">
+                    <h2>Location</h2>
+                    <p>Insert wedding location here</p>
+                </div>
+            </div>
+        </div>
+        <div id="venue" class="main-content">
+            <h2 class="section-heading">Venue</h2>
+            <p>Insert venue details and address here</p>
+        </div>
+        <div id="rsvp" class="main-content">
+            <h2 class="section-heading">RSVP</h2>
+            <p>Insert RSVP instructions and form here</p>
+        </div>
+        <div id="gallery" class="main-content">
+            <h2 class="section-heading">Gallery</h2>
+            <p>Insert wedding photos or videos here</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Himanshu & Partner's Wedding. All rights reserved.</p>
+    </footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
